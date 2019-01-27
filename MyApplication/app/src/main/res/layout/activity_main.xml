@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dummy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+         />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:text="Android Tutorial" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:text="I am Orange in Colour"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:text="I am Blue in Colour"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:text="I am Green in Colour"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:textColor="@color/white"
+        android:background="@drawable/ic_launcher_background"/>
+
+
+</LinearLayout>
