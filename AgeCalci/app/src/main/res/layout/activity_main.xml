@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="current year"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="12dp"
+            />
+
+
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="enter current year"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="59dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="current month"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:padding="12dp"
+            />
+
+        <EditText
+            android:id="@+id/e2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="enter current month"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="59dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="current date"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="12dp"
+            />
+
+        <EditText
+            android:id="@+id/e3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="enter current date"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="59dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Birth Year"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/e4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Enter birth year"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Birth Month"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="12dp"
+            />
+
+        <EditText
+            android:id="@+id/e5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="enter birth month"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="59dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Birth Date"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:padding="12dp"
+            />
+
+        <EditText
+            android:id="@+id/e6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="enter birth date"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="59dp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+
