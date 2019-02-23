@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:text="Name" />
+<LinearLayout
+    android:id="@+id/ll1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:layout_width="236dp"
+        android:layout_height="59dp"
+        android:layout_weight="1"
+        android:text="Name:" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textSize="30dp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:textSize="30dp"
+            android:id="@+id/textView1"
+            android:layout_width="236dp"
+            android:layout_height="59dp"
+            android:layout_weight="1"
+            android:text="Password:" />
+
+        <EditText
+            android:id="@+id/editText21"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv1"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="@color/colorPrimary"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
