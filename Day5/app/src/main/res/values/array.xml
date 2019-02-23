@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>Bindhu</item>
+        <item>Jaahnavi</item>
+        <item>Neelima</item>
+        <item>Sairam</item>
+    </string-array>
+</resources>
