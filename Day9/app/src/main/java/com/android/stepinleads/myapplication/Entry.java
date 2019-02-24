@@ -8,12 +8,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Entry extends StringRequest {
-    private static final String URL="http://192.168.0.111/Tbl_BasicRegistration_Entry.php";
+    private static final String URL="https://sairamkonda278.000webhostapp.com/androidclasstest.php";
     private Map<String,String> params;
-    public Entry( String s,Response.Listener<String> listener) {
+    public Entry( Data d,Response.Listener<String> listener) {
         super(Request.Method.POST, URL, listener, null);
         params=new HashMap<>();
-        params.put("name",s);
+        params.put("name",d.name);
 
     }
     @Override
