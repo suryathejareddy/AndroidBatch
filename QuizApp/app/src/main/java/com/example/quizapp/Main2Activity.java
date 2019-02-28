@@ -26,7 +26,7 @@ public class Main2Activity extends AppCompatActivity {
         rb4=findViewById(R.id.radioButton24);
         button=findViewById(R.id.button2);
         Bundle b=getIntent().getExtras();
-        final int[] score = {(int) b.get("score1")};
+        int score =  b.get("score1");
 
         rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
