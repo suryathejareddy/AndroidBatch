@@ -1,4 +1,4 @@
-package com.example.app1;
+package com.example.name;
 
 import com.android.volley.Request;
 import com.android.volley.Response;
@@ -14,14 +14,6 @@ public class Entry extends StringRequest {
         super(Request.Method.POST, URL, listener, null);
         params=new HashMap<>();
         params.put("name",d.name);
-        params.put("dob",d.dob);
-        params.put("age",d.age);
-        params.put("gender",d.g);
-        params.put("fname",d.fname);
-        params.put("mname",d.mname);
-        params.put("address",d.add);
-        params.put("number",d.num);
-        params.put("email",d.mail);
     }
     @Override
     public Map<String, String> getParams() {
