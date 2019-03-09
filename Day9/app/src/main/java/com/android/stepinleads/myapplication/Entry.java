@@ -13,7 +13,7 @@ public class Entry extends StringRequest {
     public Entry( Data d,Response.Listener<String> listener) {
         super(Request.Method.POST, URL, listener, null);
         params=new HashMap<>();
-        params.put("name",d.name);
+        params.put("Name",d.name);
 
     }
     @Override

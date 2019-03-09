@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -18,13 +19,21 @@ import org.json.JSONObject;
 public class MainActivity extends AppCompatActivity {
     ProgressDialog progress;
     Button b;
+    EditText e;
+    String edit;
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+String s="Bindhu";
+e=findViewById(R.id.editText);
+
+edit=e.getText().toString();
 
 b=findViewById(R.id.btn);
+
+
 
 b.setOnClickListener(new View.OnClickListener() {
     @Override
@@ -80,6 +89,10 @@ b.setOnClickListener(new View.OnClickListener() {
 
     }
 });
+            }
+            public void EditTextErro(EditText e,String s)
+            {
+                e.setError(s);
             }
     }
 
