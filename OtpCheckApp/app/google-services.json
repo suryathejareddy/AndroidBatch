@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "757895147349",
+    "firebase_url": "https://myproject-e9dcc.firebaseio.com",
+    "project_id": "myproject-e9dcc",
+    "storage_bucket": "myproject-e9dcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757895147349:android:5f9be0a52e76efb2",
+        "android_client_info": {
+          "package_name": "StepinLeads.Android.OTP"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757895147349-8c8qapg603gd2lssb0e8h3acbk8436an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "StepinLeads.Android.OTP",
+            "certificate_hash": "09feffa8fa9088be307c1f72cf0860c290b3896e"
+          }
+        },
+        {
+          "client_id": "757895147349-kr4cslbo43pmcftbku8cgskpabinfnfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlN9XzPXjjmaJ4VIaVS5J4rPIMA3sVzYU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757895147349-kr4cslbo43pmcftbku8cgskpabinfnfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
