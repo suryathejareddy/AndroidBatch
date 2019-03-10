@@ -1,4 +1,4 @@
-package cloneapps.androidcourse.stepinleads.otpcheckapp;
+package StepinLeads.Android.OTP.otpcheckapp;
 
 import org.junit.Test;
 

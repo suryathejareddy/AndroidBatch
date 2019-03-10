@@ -1,4 +1,4 @@
-package cloneapps.androidcourse.stepinleads.otpcheckapp;
+package StepinLeads.Android.OTP.otpcheckapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

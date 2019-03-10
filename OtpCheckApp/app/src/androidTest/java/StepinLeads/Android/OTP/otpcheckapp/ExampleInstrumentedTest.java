@@ -1,4 +1,4 @@
-package cloneapps.androidcourse.stepinleads.otpcheckapp;
+package StepinLeads.Android.OTP.otpcheckapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("cloneapps.androidcourse.stepinleads.otpcheckapp", appContext.getPackageName());
+        assertEquals("StepinLeads.Android.OTP.otpcheckapp", appContext.getPackageName());
     }
 }
