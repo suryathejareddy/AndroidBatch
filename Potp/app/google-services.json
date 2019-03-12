@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "161918633155",
+    "firebase_url": "https://potp-33f1e.firebaseio.com",
+    "project_id": "potp-33f1e",
+    "storage_bucket": "potp-33f1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161918633155:android:ff00de9716464845",
+        "android_client_info": {
+          "package_name": "com.android.neelima.potp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161918633155-sumg9rrupge98apb81kpiadm4da26ehs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.neelima.potp",
+            "certificate_hash": "a4b88d5db242e5fb156664a43979cae439e925f0"
+          }
+        },
+        {
+          "client_id": "161918633155-18hb6hd2ikqrkv8kcuv42o5tn3cas20t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeCg_znUvwj8x0sHuk3Fu4VhRs8gHDnJc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161918633155-18hb6hd2ikqrkv8kcuv42o5tn3cas20t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
