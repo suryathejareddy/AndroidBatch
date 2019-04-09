@@ -1,0 +1,43 @@
+<?php
+    $mysqli = new mysqli("localhost" ,"id5040037_merlinmegha005", "dontaskme5","id5040037_exe");
+    if (mysqli_connect_errno()) {
+        $response = array();
+        $response["e"] = mysqli_connect_error();
+        $response["success"] = false;  
+        echo json_encode($response);
+        exit();
+    }
+    $userName = $_POST["userName"];
+    $password = $_POST["password"];
+    if ($stmt = $mysqli->prepare("SELECT * FROM  Sainik_Registration_Form WHERE email=? and password=?")) {
+        $stmt->bind_param("ss",$userName,$password);
+        $stmt->execute();
+        $result=$stmt->get_result();
+        $response = array();
+        $response["success"] = false;
+        if($result->num_rows >0){
+            while($row = $result->fetch_assoc()){
+                $response["serviceType"] = $row["service_type"];
+                $response["serviceNumber"] = $row["service_number"];
+                $response["Name"] = $row["name"];
+                $response["Email"] = $row["email"];
+                $response["Aadhar"] = $row["aadhar"];
+                $response["Phone"] = $row["phone"];
+                $response["District"] = $row["district"];
+                $response["success"] = true;
+            }
+        }
+        if($response["success"]===false){
+            $response["e"]="Cant Find Your Account";
+        }
+        echo json_encode($response);
+        exit();
+    }
+    else{
+        $response = array();
+        $response["e"] = $stmt.error();
+        $response["success"] = false;  
+        echo json_encode($response);
+        exit();
+    }
+?>
